@@ -14,11 +14,9 @@ header
     background-size: cover
     nav
         display: flex
-        justify-content: space-around
         align-items: center
-        flex-wrap: wrap
         a
-            padding: 20px
+            padding: 40px
             color: white
             &:hover
                 color: black
@@ -29,19 +27,55 @@ body
             display: flex
             justify-content: center
             align-items: center
-            padding: 70px
+            padding: 130px
             h1
                 text-align: center
                 margin: 25px
+                font-size: 50Px
             p
                 text-align: center
                 margin: 35px
             img
-                width: 50%
+                width: 30%
                 border-radius: 15px
+            .btn
+                background-image: linear-gradient(to right, #C04848 0%, #480048 51%, #C04848 100%)
+                padding: 10px 25px
+                text-align: center
+                width: 20%
+                transition: 0.5s
+                background-size: 200% auto
+                color: white
+                box-shadow: 0 0 20px #eee
+                border-radius: 10px
+                display: block
+                margin: auto
+                &:hover
+                    background-position: right center /* change the direction of the change here */
+                    color: #fff
+                    text-decoration: none
 
-    body
-        main
-            section#aboutme
-                h1
-                    text-align: center
+body
+    main
+        section#aboutme
+            display: flex
+            justify-content: center
+            align-items: center
+            padding: 130px
+            h1
+                text-align: center
+            .btn
+                background-image: linear-gradient(to right, #C04848 0%, #480048 51%, #C04848 100%)
+                padding: 10px 25px
+                text-align: center
+                text-transform: uppercase
+                transition: 0.5s
+                background-size: 200% auto
+                color: white
+                box-shadow: 0 0 20px #eee
+                border-radius: 10px
+                display: block
+                &:hover
+                    background-position: right center /* change the direction of the change here */
+                    color: #fff
+                    text-decoration: none
