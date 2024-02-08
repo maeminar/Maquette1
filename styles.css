@@ -47,3 +47,6 @@ body main section#presentation img {
   width: 50%;
   border-radius: 15px;
 }
+body body main section#aboutme h1 {
+  text-align: center;
+}
